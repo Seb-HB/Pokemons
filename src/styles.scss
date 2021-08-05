@@ -1,2 +1,22 @@
 @import "node_modules/bootstrap/scss/bootstrap"; 
-@import "/src/styles/var"
+@import "/src/styles/var";
+@import "/src/styles/text-format";
+
+header{
+    height:300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+nav{
+    margin-right: 2rem;
+}
+
+li{
+    list-style:none;
+    display:inline-block;
+    margin-right: 1rem;
+    font-family: 'Pokemon Hollow';
+    font-size:2rem;
+    text-transform: uppercase;
+}
